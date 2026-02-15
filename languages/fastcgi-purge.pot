@@ -1,0 +1,98 @@
+# Copyright (C) 2026 Mayis Hajiyev
+# This file is distributed under the same license as the DirectAdmin FastCGI Cache Purge plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: DirectAdmin FastCGI Cache Purge 1.3.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mayishajiyev/fastcgi-purge/issues\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-02-15T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.4\n"
+
+#: fastcgi-purge.php:30
+msgid "Clear FastCGI Cache"
+msgstr ""
+
+#: fastcgi-purge.php:80
+msgid "FastCGI cache purged successfully!"
+msgstr ""
+
+#: fastcgi-purge.php:85
+msgid "Failed to purge FastCGI cache. Please check your Nginx configuration."
+msgstr ""
+
+#: fastcgi-purge.php:92
+msgid "You do not have permission to purge the cache."
+msgstr ""
+
+#: fastcgi-purge.php:96
+msgid "Invalid request."
+msgstr ""
+
+#: readme.txt:3
+msgid "DirectAdmin FastCGI Cache Purge"
+msgstr ""
+
+#: readme.txt:4
+msgid "Adds an admin bar button to purge Nginx FastCGI cache instantly with notice feedback."
+msgstr ""
+
+#: readme.txt:42
+msgctxt "plugin header"
+msgid "Description"
+msgstr ""
+
+#: readme.txt:44
+msgid "DirectAdmin FastCGI Cache Purge is a lightweight WordPress plugin specifically designed for DirectAdmin servers running Nginx with FastCGI caching."
+msgstr ""
+
+#: readme.txt:49
+msgid "One-click FastCGI cache purge from WordPress admin bar"
+msgstr ""
+
+#: readme.txt:50
+msgid "Automatic cache purging on post/page save"
+msgstr ""
+
+#: readme.txt:51
+msgid "Clean AJAX-based cache clearing with user feedback"
+msgstr ""
+
+#: readme.txt:52
+msgid "Lightweight and zero performance impact"
+msgstr ""
+
+#: readme.txt:53
+msgid "Fully compatible with DirectAdmin and Nginx servers"
+msgstr ""
+
+#: readme.txt:54
+msgid "Works on both admin area and frontend"
+msgstr ""
+
+#: readme.txt:55
+msgid "Restricted to administrators only (security)"
+msgstr ""
+
+#. Translators: 1: DirectAdmin, 2: Nginx, 3: FastCGI
+#: readme.txt:65
+msgid "Yes, this plugin is specifically designed for %1$s servers with %2$s %3$s caching enabled."
+msgstr ""
+
+#: readme.txt:69
+msgid "Yes! Only users with 'manage_options' capability (administrators) can purge the cache."
+msgstr ""
+
+#: readme.txt:73
+msgid "No! The plugin is extremely lightweight and uses efficient AJAX requests."
+msgstr ""
+
+#: readme.txt:77
+msgid "This plugin is designed for Nginx FastCGI cache. It may not work with other caching solutions."
+msgstr ""

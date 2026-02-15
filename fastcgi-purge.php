@@ -1,10 +1,17 @@
 <?php
 /*
-Plugin Name: DirectAdmin FastCGI Cache
+Plugin Name: DirectAdmin FastCGI Cache Purge
+Plugin URI: https://github.com/mayishajiyev/fastcgi-purge
 Description: Adds an admin bar button to purge Nginx FastCGI cache instantly with notice feedback.
 Version: 1.3.0
 Author: Mayis Hajiyev
-License: GPL2+
+Author URI: https://github.com/mayishajiyev
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fastcgi-purge
+Domain Path: /languages
+Requires at least: 5.0
+Requires PHP: 7.2
 */
 
 if (!defined('ABSPATH')) exit;
