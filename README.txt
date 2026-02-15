@@ -1,69 +1,77 @@
 === DirectAdmin FastCGI Cache Purge ===
-
 Contributors: mayishajiyev
-Plugin Name: DirectAdmin FastCGI Cache
-Description: Adds an admin bar button to purge Nginx FastCGI cache instantly with notice feedback.
-Version: 1.3.0
-Author: Mayis Hajiyev
-Author URI: https://github.com/mayishajiyev
-License: GPL2+
+Tags: cache, fastcgi, nginx, directadmin, performance, purge
+Requires at least: 5.0
+Tested up to: 6.5
+Requires PHP: 7.2
+Stable tag: 1.3.0
+License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: da-fastcgi-cache
-Domain Path: /languages
 
 == Description ==
 
-DirectAdmin FastCGI Cache Purge is a lightweight WordPress plugin designed for DirectAdmin servers running Nginx with FastCGI caching.
+DirectAdmin FastCGI Cache Purge is a lightweight WordPress plugin specifically designed for DirectAdmin servers running Nginx with FastCGI caching.
 
-This plugin adds a convenient admin bar button that allows site administrators to instantly purge the Nginx FastCGI cache with visual feedback. Perfect for quickly clearing cached content after updates.
+Quickly purge your Nginx FastCGI cache directly from the WordPress admin bar with a single click. This plugin adds a convenient button that allows site administrators to instantly clear cached content with immediate visual feedback. Perfect for updating critical content without waiting for cache expiration.
 
-== Key Features ==
+= Features =
 
-* One-click FastCGI cache purge from WordPress admin bar
-* Automatic cache purging on post save
-* Clean AJAX-based cache clearing with user feedback
-* Lightweight and efficient
-* Compatible with DirectAdmin and Nginx servers
-* Works on admin area and frontend
+* ✓ One-click FastCGI cache purge from WordPress admin bar
+* ✓ Automatic cache purging on post/page save
+* ✓ Clean AJAX-based cache clearing with user feedback
+* ✓ Lightweight and zero performance impact
+* ✓ Fully compatible with DirectAdmin and Nginx servers
+* ✓ Works on both admin area and frontend
+* ✓ Restricted to administrators only (security)
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/fastcgi-purge/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Configure your Nginx FastCGI cache path in DirectAdmin
-4. Click the "Clear FastCGI Cache" button in the admin bar to purge cache instantly
+1. Download the plugin from GitHub or upload via WordPress plugin uploader
+2. Extract the plugin files to `/wp-content/plugins/fastcgi-purge/`
+3. Activate the plugin through the 'Plugins' menu in WordPress
+4. Ensure your DirectAdmin server has Nginx with FastCGI cache configured
+5. Click "Clear FastCGI Cache" button in the admin bar to start using
 
-== Requirements ==
+= Automatic Setup =
 
-* WordPress 5.0 or higher
-* PHP 7.2 or higher
-* DirectAdmin Server with Nginx
-* FastCGI cache configured in Nginx
+Simply activate the plugin - no additional configuration needed! The plugin automatically detects your Nginx FastCGI cache path through DirectAdmin.
 
-== Usage ==
+== Frequently Asked Questions ==
 
-Once activated, you'll see a "Clear FastCGI Cache" button in the WordPress admin bar. Click it anytime to purge your Nginx FastCGI cache.
+= Do I need DirectAdmin? =
+Yes, this plugin is specifically designed for DirectAdmin servers with Nginx FastCGI caching enabled.
 
-The plugin automatically purges cache when:
-* A post is saved or updated
-* Any content is published
+= Is this plugin secure? =
+Yes! Only users with "manage_options" capability (administrators) can purge the cache.
 
-== Security ==
+= Will this slow down my site? =
+No! The plugin is extremely lightweight and uses efficient AJAX requests.
 
-Only users with "manage_options" capability (administrators) can purge the cache.
+= Does it work without Nginx? =
+This plugin is designed for Nginx FastCGI cache. It may not work with other caching solutions.
 
 == Changelog ==
 
 = 1.3.0 =
-* Initial release
-* One-click cache purge functionality
-* Auto-purge on post save
+* Initial public release
+* One-click FastCGI cache purge from admin bar
+* Automatic cache purging on post/page save
+* AJAX-based implementation with user feedback
+* Security hardening and permissions check
+* Optimized for DirectAdmin Nginx servers
 
-== Support ==
+== Credits ==
 
-For issues, feature requests, or questions, please visit:
+Developed by Mayis Hajiyev
+GitHub: https://github.com/mayishajiyev/fastcgi-purge
+
+== Support & Contributions ==
+
+Found a bug or have a feature request? Please visit our GitHub repository:
 https://github.com/mayishajiyev/fastcgi-purge
+
+Contributions are welcome! Feel free to submit pull requests or open issues.
 
 == License ==
 
-This plugin is licensed under the GPL2+ license. See LICENSE file for details.
+This plugin is licensed under the GPL v2 or later. See the LICENSE file for full details.
